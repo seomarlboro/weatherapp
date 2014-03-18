@@ -23,9 +23,7 @@ jQuery(document).ready(function ($) {
                 });
             }
 
-            var result = getWeather();
-
-            $('h1').html(result);
+            getWeather();
 
         }, function(){
             console.log("Вы запретили доступ к GPS");
